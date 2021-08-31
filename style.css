@@ -1820,7 +1820,7 @@ input:focus, textarea:focus{
 }
 .info-block__big-title {
 	line-height: 1.1;
-	font-size: 36px;
+	font-size: 46px;
 	font-weight: 600;
 }
 .info-block__outlined-title{
@@ -1832,6 +1832,15 @@ input:focus, textarea:focus{
 }
 .info-block__outlined-title__main{
 	text-align: center;
+}
+.list{
+	margin: 0;
+	padding: 20px 0;
+	list-style: none;
+}
+.list li{
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .pl40 {
 	padding-left: 40px;
