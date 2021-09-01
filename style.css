@@ -2070,6 +2070,32 @@ input:focus, textarea:focus{
         grid-template-columns: 12fr 7fr;
     }    
 }
+@media(max-width: 1180px){
+	.info-block {
+		display: block;
+		padding: 0 20px;
+	}
+	.info-block__big-title{
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.common-footer {
+		grid-template-columns: 1fr;
+	}
+	.info-block__big-title .pl40{
+		padding-left: 0;
+	}
+	.info-block__big-title {
+		font-size: 24px;
+		text-transform: uppercase;
+	}
+	.course-module__wrapper:nth-child(odd) .course-module:before {
+		display: none;
+	}
+	.course-module__wrapper:nth-child(even) .course-module:before {
+		display: none;
+	}
+}
 @media(max-width: 1100px){
     .content-menu {
         font-size: 16px !important;
