@@ -45,7 +45,7 @@ get_header();
         </nav>
         <div class="common_top-logo"><img alt="logo" src="/wp-content/themes/uplab/img/logo2.png"/></div>
     </div>
-    <section class="sec">
+    <section class="pt70">
         <img class="full-width-image" src="/wp-content/uploads/2021/08/exapmle1440x280.png">
     </section>
     <section class="sec">
@@ -208,7 +208,7 @@ get_header();
     </section>
     <section class="sec">
         <div class="box">
-            <div class="info-block">
+            <div class="info-block info-block_1_2">
                 <div>
                     <div class="info-block__big-title">
                         ЧЕМУ<br>
@@ -238,8 +238,228 @@ get_header();
                     </ul>
                 </div>
             </div>
+            <div class="common__buttons-wrapper text-center">
+                <button class="common__button">Записаться на курс</button>
+                <button class="common__button">В лист ожидания</button>
+            </div>
         </div>
     </section>
+    <section class="sec">
+        <div class="box">
+            <div class="info-block gap40">
+                <div>
+                    <div class="info-block__big-title">
+                        КТО<br>
+                        <div class="pl40">
+                            СПИКЕР
+                        </div>
+                    </div>
+                    <img src="/wp-content/themes/uplab/img/bg-min.png" alt="image">
+                </div>
+                <div>
+                    <div class="info-block__title">АНАСТАСИЯ КАРАКАЗОВА</div>
+                    <div class="info-block__outlined-title">DIGITAL МАРКЕТОЛОГ С 2016 ГОДА, СПЕЦИАЛИСТ ПО КОМПЛЕКСНОМУ ПРОДВИЖЕНИЮ
+                    </div>
+                    <div class="info-block__text">
+                        <ul class="list">
+                            <li>ЭКСПЕРТНОСТЬ ТРЕНЕРА:</li>
+                            <li>
+                                ✓ КОММУНИКАЦИОННЫЕ СТРАТЕГИИ ПРОДВИЖЕНИЯ ТОВАРОВ/УСЛУГ/ЛИЧНОГО БРЕНДА:
+                                ФОРМИРОВАНИЕ И РЕАЛИЗАЦИЯ КОММУНИКАЦИОННОЙ СТРАТЕГИИ (ОТСТРАИВАНИЕ БРЕНДА, АНАЛИЗ КОНКУРЕНТОВ, РАБОТА СО СТИЛЕМ, СЕГМЕНТИРОВАНИЕ ЦЕЛЕВОЙ АУДИТОРИИ,  ФОРМИРОВАНИЕ MESSAGE, ПОСТАНОВКА ЦЕЛЕЙ И ЗАДАЧ, ОПРЕДЕЛЕНИЕ ИНСТРУМЕНТОВ);
+                            </li>
+                            <li>
+                                ✓ ИНСТРУМЕНТЫ DIGITAL - МАРКЕТИНГА:<br>
+                                1. САЙТ (ЭФФЕКТИВНАЯ ПЛОЩАДКА ДЛЯ КОММУНИКАЦИИ: SEO: ОПТИМИЗАЦИЯ САЙТОВ, СЕМАНТИКА, КЛАСТЕРИЗАЦИЯ, USER EXPERIENCE DESIGN, USER INTERFACE DESIGN);<br>
+                                2. СОЦИАЛЬНЫЙ МАРКЕТИНГ - SMM (ТРАФИК, ВИЗУАЛИЗАЦИЯ, РЕКЛАМНЫЕ КАМПАНИИ: РЕМАРКЕТИНГ, РЕТАРГЕТИНГ, НАРАЩИВАНИЕ АУДИТОРИЙ, ПОВЫШЕНИЕ ВОВЛЕЧЕННОСТИ,  АНАЛИТИКА);<br>
+                                3. КОНТЕКСТНАЯ РЕКЛАМА (YANDEX, GOOGLE: ВСЕ ФОРМАТЫ РАЗМЕЩЕНИЯ, ОПТИМИЗАЦИЯ КАМПАНИЙ, АНАЛИТИКА);<br>
+                                4. EMAIL-МАРКЕТИНГ (ВОРОНКИ ПРОДАЖ, СЕГМЕНТАЦИЯ АУДИТОРИЙ, ОСОБЕННОСТИ ИНСТРУМЕНТОВ);<br>
+                                5. КОНТЕНТ-МАРКЕТИНГ (ПРОФЕССИОНАЛЬНЫЙ КОПИРАЙТИНГ, ПРОДАЮЩИЕ ТЕКСТЫ);<br>
+                                6. ТРАФИКООБРАЗУЮЩИЕ ИНСТРУМЕНТЫ (ИНЫЕ ТРЕНДОВЫЕ ИНСТРУМЕНТЫ DIGITAL-МАРКЕТИНГА).
+                            </li>
+                            <li>
+                                ✓ ОБУЧАЮЩАЯ ДЕЯТЕЛЬНОСТЬ:<br>
+                                ОБУЧЕНИЕ СОБСТВЕННИКОВ МАЛОГО И СРЕДНЕГО БИЗНЕСА, DIGITAL-МАРКЕТИНГУ; ПОВЫШЕНИЕ КВАЛИФИКАЦИИ СПЕЦИАЛИСТОВ-МАРКЕТОЛОГОВ (ИНСТРУМЕНТЫ, ТЕХНИКИ,  ТРЕНДЫ).
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="common__buttons-wrapper text-center">
+                <button class="common__button">Записаться на курс</button>
+                <button class="common__button">В лист ожидания</button>
+            </div>
+        </div>
+    </section>
+    <section class="sec sec_light">
+        <div class="box">
+            <div class="info-block column-gap80 course-program">
+                <div>
+                    <div class="info-block__big-title black-color">
+                        ПРОГРАММА
+                        <br>
+                        <div class="pl40">
+                            КУРСА
+                        </div>
+                    </div>
+                </div>
+                <div class="course-module__wrapper">
+                    <div class="course-module">
+                        Модуль 1: продвижение в Интернете 2021<br>
+                        ✓ Статистика<br>
+                        ✓ Тренды<br>
+                        ✓ Особенности коммуникации<br>
+                        ✓ Что такое digital<br>
+                        ✓ Кто такой digital-маркетолог<br>
+                    </div>
+                </div>
+                <div class="course-module__wrapper">
+                    <div class="course-module">
+                        Модуль 2: digital-стратегия<br>
+                        ✓ Что такое digital-стратегия<br>
+                        ✓ Зачем нужна digital-стратегия<br>
+                        ✓ Место digital-стратегии в маркетинге<br>
+                        ✓ Ключевые составляющие digital-стратегии<br>
+                    </div>
+                </div>
+                <div class="course-module__wrapper">
+                    <div class="course-module">
+                        Модуль 3: точка контакта – продающий сайт<br>
+                        ✓ Виды и особенности сайтов<br>
+                        ✓ Функционал сайтов<br>
+                        ✓ Юзабилити сайта<br>
+                        ✓ Визуальная составляющая сайта<br>
+                        ✓ Техничексая составляющая сайта<br>
+                        ✓ Основы написания кода<br>
+                        ✓ Копирайтинг на сайт<br>
+                        ✓ Работа с интерфейсом популярных CMS<br>
+                    </div>
+                </div>
+                <div class="course-module__wrapper">
+                    <div class="course-module">
+                        Модуль 4: точки контакта – социальные сети<br>
+                        ✓ Тренды и статистика 2021<br>
+                        ✓ Стратегия продвижения в социальных сетях<br>
+                        ✓ Визуальная, юзабилити, техническая составляющая социальных сетей<br>
+                        ✓ Копирайтинг для социальных сетей<br>
+                        ✓ Профессиональные инструменты автоматизации работы с социальными сетями<br>
+                    </div>
+                </div>
+                <div class="course-module__wrapper">
+                    <div class="course-module">
+                        Модуль 5: иные точки контакта в Интернете<br>
+                        ✓ Мессенджеры: Telegram, WhatsApp, Viber<br>
+                        ✓ Особенности продвижения на YouTube<br>
+                        ✓ Особенности продвижения на Яндекс Дзен<br>
+                        ✓ Особенности продвижения на Яндекс Кью<br>
+                    </div>
+                </div>
+                <div class="course-module__wrapper">
+                    <div class="course-module">
+                        Модуль 6: инструменты digital-маркетолога для генерации продаж<br>
+                        ✓ Email-маркетинг<br>
+                        ✓ Краудмаркетинг<br>
+                        ✓ SEO<br>
+                        ✓ Реклама (Яндекс Direct, Google Adwords)<br>
+                        ✓ Таргетинг в социальных сетях<br>
+                        ✓ Партнерки, блогеры, иные инструменты генерации трафика<br>
+                    </div>
+                </div>
+                <div class="course-module__wrapper">
+                    <div class="course-module">
+                        Модуль 7: основы аналитики<br>
+                        ✓ Яндекс Метрика<br>
+                        ✓ Google Analytics<br>
+                        ✓ Ройстат<br>
+                        ✓ Ключевые показатели эффективности KPI Digital маркетолога<br>
+                        ✓ Сквозная аналитика<br>
+                    </div>
+                </div>
+                <div class="course-module__wrapper">
+                    <div class="course-module">
+                        Модуль 8: упаковка digital-маркетолога<br>
+                        ✓ Отстраивание от конкурентов<br>
+                        ✓ Брифование заказчиков<br>
+                        ✓ Особенности заключения договора<br>
+                        ✓ Ценообразование<br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec sec_dark">
+        <div class="box">
+            <div class="info-block gap40">
+                <div class="pt70">
+                    <div class="iphone-video">
+                        <div class="iphone-video__iphone-image">
+                            <img src="/wp-content/uploads/2021/08/Iphone-1-2-1.png" alt="iphone">
+                        </div>
+                        <div class="iphone-video__back-image">
+                            <img src="/wp-content/uploads/2021/08/Group-2-2-1.png" alt="iphone">
+                        </div>
+                        <div class="iphone-video__video-wrapper">
+                            <video class="iphone-video__video-video"
+                                   src="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4" controls>
+                                Sorry, your browser doesn't support embedded videos,
+                                but don't worry, you can <a
+                                    href="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4">download it</a>
+                                and watch it with your favorite video player!
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="info-block__title">ЦЕНА И ДАТЫ</div>
+                    <div class="info-block__outlined-title info-block__outlined-title_black-back">ПРОДОЛЖАЮЩИМ
+                        ВСЕГО: 72 ЧАСА
+                        СТАРТ: СЕРЕДИНА СЕНТЯБРЯ 2021 ГОДА
+                        КОЛИЧЕСТВО И ПЕРИОДИЧНОСТЬ ЗАНЯТИЙ: 14 ЗАНЯТИЙ ПО 3 ЧАСА ДВАЖДЫ В НЕДЕЛЮ
+                    </div>
+                    <div class="info-block__text">
+                        В КАЧЕСТВЕ ЭКЗАМЕНА: РАЗРАБОТКА ДОКУМЕНТА «DIGITAL-СТРАТЕГИЯ БРЕНДА/УСЛУГИ/ТОВАРА/ПЕРСОНЫ»
+                    </div>
+                    <div class="info-block__text">
+                        <strong>СТОИМОСТЬ УЧАСТИЯ: 35 000 Р.</strong>
+                    </div>
+                    <div class="info-block__text">
+                        СТОИМОСТЬ ВКЛЮЧАЕТ ЗАНЯТИЯ, РАЗБОР ДОМАШНИХ ЗАДАНИЙ, АУДИТ И ОБРАТНАЯ СВЯЗЬ ПО ДОКУМЕНТУ «DIGITAL-СТРАТЕГИЯ БРЕНДА/УСЛУГИ/ТОВАРА/ПЕРСОНЫ», ИНФОРМАЦИОННАЯ ПОДДЕРЖКА ПОСЛЕ КУРСА НА ПРОТЯЖЕНИИ 2 МЕСЯЦЕВ.
+                    </div>
+                    <div class="common__buttons-wrapper">
+                        <button class="common__button">Записаться на курс</button>
+                        <button class="common__button">В лист ожидания</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="sec">
+            <div class="common-footer box">
+                <div>
+                    <img alt="logo" src="/wp-content/themes/uplab/img/logo2.png">
+                </div>
+                <div>КОНТАКТЫ:
+                    <p>
+                        Email: up_lab@mail.ru    кликабельный
+                        Phone: +7 911 129 96 94 кликабельный
+                        Иконки Мессенджеры как на главной кликабельные
+                    </p>
+                </div>
+                <div>
+                    РЕКВИЗИТЫ:
+                    <p>
+                        ИП Караказова Анастасия Павловна
+                        Юридический и почтовый адрес:
+                        192076, Санкт-Петербург,
+                        пр. Рыбацкий, д. 15, корп. 1, кв. 319
+                        ИНН/КПП: 222509007480
+                    </p>
+                </div>
+                <div><a href="/">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a></div>
+            </div>
+        </section>
+    </footer>
+
 </main><!-- #main -->
 
 <?php
