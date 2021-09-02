@@ -115,13 +115,16 @@ get_header();
                         </div>
                         <div class="iphone-video__video-wrapper">
                             <video class="iphone-video__video-video"
-                                   src="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4" controls>
+                                   src="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4">
                                 Sorry, your browser doesn't support embedded videos,
                                 but don't worry, you can <a
                                     href="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4">download it</a>
                                 and watch it with your favorite video player!
                             </video>
                         </div>
+                        <button class="iphone-video__play" aria-label="play pause toggle"></button>
+                        <button class="iphone-video__full-screen" aria-label="play pause toggle"></button>
+
                     </div>
                 </div>
             </div>
@@ -140,13 +143,15 @@ get_header();
                         </div>
                         <div class="iphone-video__video-wrapper">
                             <video class="iphone-video__video-video"
-                                   src="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4" controls>
+                                   src="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4">
                                 Sorry, your browser doesn't support embedded videos,
                                 but don't worry, you can <a
                                     href="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4">download it</a>
                                 and watch it with your favorite video player!
                             </video>
                         </div>
+                        <button class="iphone-video__play" aria-label="play pause toggle"></button>
+                        <button class="iphone-video__full-screen" aria-label="play pause toggle"></button>
                     </div>
                 </div>
                 <div>
@@ -194,13 +199,16 @@ get_header();
                         </div>
                         <div class="iphone-video__video-wrapper">
                             <video class="iphone-video__video-video"
-                                   src="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4" controls>
+                                   src="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4">
                                 Sorry, your browser doesn't support embedded videos,
                                 but don't worry, you can <a
                                     href="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4">download it</a>
                                 and watch it with your favorite video player!
                             </video>
                         </div>
+                        <button class="iphone-video__play" aria-label="play pause toggle"></button>
+                        <button class="iphone-video__full-screen" aria-label="play pause toggle"></button>
+
                     </div>
                 </div>
             </div>
@@ -399,13 +407,16 @@ get_header();
                         </div>
                         <div class="iphone-video__video-wrapper">
                             <video class="iphone-video__video-video"
-                                   src="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4" controls>
+                                   src="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4">
                                 Sorry, your browser doesn't support embedded videos,
                                 but don't worry, you can <a
                                     href="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4">download it</a>
                                 and watch it with your favorite video player!
                             </video>
                         </div>
+                        <button class="iphone-video__play" aria-label="play pause toggle"></button>
+                        <button class="iphone-video__full-screen" aria-label="play pause toggle"></button>
+
                     </div>
                 </div>
                 <div>
@@ -461,7 +472,40 @@ get_header();
     </footer>
 
 </main><!-- #main -->
+<script>
+jQuery('.iphone-video__play').click((e)=>{
+    const videoWrapper = e.target.closest('.iphone-video');
+    const video = videoWrapper.querySelector('video');
+    if(video.paused) {
+        video.play();
+        videoWrapper.classList.add('playing');
+    } else {
+        video.pause();
+        videoWrapper.classList.remove('playing');
+    }
+    video.addEventListener('ended', stopMedia);
+    function stopMedia() {
+        video.pause();
+        video.currentTime = 0;
+        videoWrapper.classList.remove('playing');
+    }
+});
 
+jQuery('.iphone-video__full-screen').click((e)=>{
+    const videoWrapper = e.target.closest('.iphone-video');
+    const video = videoWrapper.querySelector('video');
+    function openFullscreen() {
+        if (video.requestFullscreen) {
+            video.requestFullscreen();
+        } else if (video.webkitRequestFullscreen) { /* Safari */
+            video.webkitRequestFullscreen();
+        } else if (video.msRequestFullscreen) { /* IE11 */
+            video.msRequestFullscreen();
+        }
+    }
+    openFullscreen();
+});
+</script>
 <?php
 
 get_footer();
