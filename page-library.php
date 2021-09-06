@@ -115,54 +115,432 @@ get_header();
                 <div class="catalog__category active">
                     <div class="catalog__item">
                         <div class="catalog__item-header">
-                            <img src="" alt="catalog-item-image">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-34.jpg" alt="catalog-item-image">
                         </div>
                         <div class="catalog__item-title">
                             Инструкция по подключению Yandex Метрики
                         </div>
-                        <button class="common__button common__button_dark">Скачать</button>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
-                            <img src="" alt="catalog-item-image">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-35.jpg" alt="catalog-item-image">
                         </div>
                         <div class="catalog__item-title">
                             Инструкция по созданию креатива
                         </div>
-                        <button class="common__button common__button_dark">Скачать</button>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-36.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Инструкция установки Google analytics
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-37.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Инструкция установки Search console
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-38.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Инструкция установки Yandex Webmaster
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-42.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Рекомендации по участию в онлайн-встречах
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                 </div>
                 <div class="catalog__category">
                     <div class="catalog__item">
                         <div class="catalog__item-header">
-                            <img src="" alt="catalog-item-image">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-01.jpg" alt="catalog-item-image">
                         </div>
                         <div class="catalog__item-title">
-                            Инструкция по подключению Yandex Метрики
+                            Чек-лист по юзабилити. Ссылки
                         </div>
-                        <button class="common__button common__button_dark">Скачать</button>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
-                </div>
-                <div class="catalog__category">
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-02.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Чек-лист по юзабилити. Кнопки
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-03.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Чек-лист по юзабилити. Дизайн и элементы сайта
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-04.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Чек-лист по юзабилити. Основное
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-05.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Чек-лист по юзабилити. Главное меню
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-06.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Чек-лист по юзабилити. Поиск
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-07.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Чек-лист по юзабилити. Навигация и поиск
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-12.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Коммуникация с клиентом на сайте
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-08.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Страница контактов
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-09.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Отзывы и комментарии
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-10.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Форма обратной связи
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-11.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Онлайн-консультант
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-13.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Страницы категорий товара
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-14.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Фильтры
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-15.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Сравнение товаров
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-16.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Сортировка
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-17.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Страница товара
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-19.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Фото и видео
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-20.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Характеристики
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-21.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Другое
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
                             <img src="" alt="catalog-item-image">
                         </div>
                         <div class="catalog__item-title">
-                            Инструкция по подключению Yandex Метрики 3
+                            Регистрация, оформление заказа, корзина
                         </div>
-                        <button class="common__button common__button_dark">Скачать</button>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
-                </div>
-                <div class="catalog__category">
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-23.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Регистрация
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-24.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Корзина
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-25.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Оформление заказа
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-26.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Оплата
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
                             <img src="" alt="catalog-item-image">
                         </div>
                         <div class="catalog__item-title">
-                            Инструкция по подключению Yandex Метрики 4
+                            25 действий для макс активизации сайта с мессенджеров
                         </div>
-                        <button class="common__button common__button_dark">Скачать</button>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-27.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Доставка
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-28.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Тексты на сайте
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-29.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Шрифт
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-30.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Заголовки и подзаголовки
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-31.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Изображения и видео на сайте
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-32.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Блог сайта
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-33.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Постоянное совершенствование юзабилити
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-44_kanali_prodaj.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Чек-лист каналов продаж
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                </div>
+                <div class="catalog__category">
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-39.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Разработка сайта
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-40.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Работы в Social media
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-41.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Продвижение персонального бренда
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-43_forma_otcheta.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Форма отчета по комплексному аудиту
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                </div>
+                <div class="catalog__category">
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-45_avatar_klienta.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Аватар клиента
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-46_kontent-plan.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Контент-план 100 постов
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="/wp-content/uploads/2021/09/uplab_check-47_portret_auditorii.jpg" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Портрет целевой аудитории
+                        </div>
+                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                 </div>
             </div>
@@ -171,26 +549,18 @@ get_header();
     <section class="sec sec_dark">
         <div class="box">
             <div class="info-block gap40">
-                <div class="pt70 mob-order-2">
-                    <div class="iphone-video">
-                        <div class="iphone-video__iphone-image">
-                            <img src="/wp-content/uploads/2021/08/Iphone-1-2-1.png" alt="iphone">
-                        </div>
-                        <div class="iphone-video__back-image">
-                            <img src="/wp-content/uploads/2021/08/Group-2-2-1.png" alt="iphone">
-                        </div>
-                        <div class="iphone-video__video-wrapper">
-                            <video class="iphone-video__video-video"
-                                   src="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4">
-                                Sorry, your browser doesn't support embedded videos,
-                                but don't worry, you can <a
-                                    href="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4">download it</a>
-                                and watch it with your favorite video player!
-                            </video>
-                        </div>
-                        <button class="iphone-video__play" aria-label="play pause toggle"></button>
-                        <button class="iphone-video__full-screen" aria-label="play pause toggle"></button>
+                <div class="info-block__big-title">
+                    ПРОЙДИ<br>
+                    <div class="pl40">
+                        БЕСПЛАТНЫЙ
                     </div>
+                    ЭКСПРЕСС-КУРС
+                    <div class="pl40">
+                        «DIGITAL-МАРКЕТИНГ<br>
+                        ПАКЕТ ЗНАНИЙ
+                    </div>
+                    ДЛЯ ВЗРЫВНОГО<br>
+                    ЭФФЕКТА»
                 </div>
                 <div>
                     <div class="info-block__title">ДЛЯ КОГО КУРС</div>

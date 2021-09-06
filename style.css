@@ -2064,6 +2064,8 @@ input:focus, textarea:focus{
 }
 .catalog__wrapper{
 	padding: 40px 0;
+	position: relative;
+	overflow: hidden;
 }
 .catalog__category{
 	position: absolute;
@@ -2079,7 +2081,17 @@ input:focus, textarea:focus{
 	visibility: visible;
 	opacity: 1;
 }
-
+.catalog__item-title{
+	color: #333;
+	font-size: 20px;
+	padding-bottom: 20px;
+	min-height: 80px;
+	display: grid;
+	align-items: center;
+}
+.catalog__item{
+	text-align: center;
+}
 
 @keyframes fadeIn {
 	from {opacity: 0; visibility: hidden;}
