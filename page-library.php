@@ -90,30 +90,80 @@ get_header();
         </div>
     </section>
     <section class="sec sec_light">
-        <div class="box">
+        <div class="box catalog">
             <div class="info-block gap40">
                 <div>
                     <div class="info-block__title info-block__title_black">БИБЛИОТЕКА МАРКЕТОЛОГА ДЛЯ ПРОРЫВНОГО ЭФФЕКТА</div>
                     <div class="info-block__outlined-title">БЕСПЛАТНЫЙ, БЕЗЛИМИТНЫЙ ДОСТУП К ЧЕК-ЛИСТАМ, ИНСТРУКЦИЯМ,
                         ПОЛЕЗНЫМ МАТЕРИАЛАМ ПО DIGITAL-МАРКЕТИНГУ
                     </div>
-                    <div class="info-block__text info-block__text_black">
-                        ВЫ ПОЛУЧИТЕ КОМПЛЕКСНЫЕ ЗНАНИЯ О ВСЕХ ИНСТРУМЕНТАХ DIGITAL-МАРКТЕТИНГА, НАУЧИТЕСЬ ИМИ
-                        ПОЛЬЗОВАТЬСЯ, ПОЛУЧИТЕ ПРЕДСТАВЛЕНИЕ О ПРОФЕССИИ DIGITAL-МАРКЕТОЛОГА
-                    </div>
-                    <div class="common__buttons-wrapper">
-                        <button class="common__button common__button_dark">Записаться на курс</button>
-                        <button class="common__button common__button_dark">В лист ожидания</button>
-                    </div>
                 </div>
                 <div class="pt70">
-                    <ul>
-                        <li>Инструкции</li>
-                        <li>Чек-листы</li>
-                        <li>Брифы</li>
-                        <li>SMM</li>
+                    <ul class="catalog__menu">
+                        <li class="active" data-index="0">Инструкции</li>
+                        <li data-index="1">/ Чек-листы</li>
+                        <li data-index="2">/ Брифы</li>
+                        <li data-index="3">/ SMM</li>
                     </ul>
-                    <button class="common__button">Скачать все материалы</button>
+                    <button class="common__button catalog__download-all-button active">Скачать все материалы</button>
+                    <button class="common__button catalog__download-all-button">Скачать все материалы</button>
+                    <button class="common__button catalog__download-all-button">Скачать все материалы</button>
+                    <button class="common__button catalog__download-all-button">Скачать все материалы</button>
+                </div>
+            </div>
+            <div class="catalog__wrapper">
+                <div class="catalog__category active">
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Инструкция по подключению Yandex Метрики
+                        </div>
+                        <button class="common__button common__button_dark">Скачать</button>
+                    </div>
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Инструкция по созданию креатива
+                        </div>
+                        <button class="common__button common__button_dark">Скачать</button>
+                    </div>
+                </div>
+                <div class="catalog__category">
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Инструкция по подключению Yandex Метрики
+                        </div>
+                        <button class="common__button common__button_dark">Скачать</button>
+                    </div>
+                </div>
+                <div class="catalog__category">
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Инструкция по подключению Yandex Метрики 3
+                        </div>
+                        <button class="common__button common__button_dark">Скачать</button>
+                    </div>
+                </div>
+                <div class="catalog__category">
+                    <div class="catalog__item">
+                        <div class="catalog__item-header">
+                            <img src="" alt="catalog-item-image">
+                        </div>
+                        <div class="catalog__item-title">
+                            Инструкция по подключению Yandex Метрики 4
+                        </div>
+                        <button class="common__button common__button_dark">Скачать</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -191,7 +241,23 @@ get_header();
     </footer>
 
 </main><!-- #main -->
+<script>
+    jQuery('.catalog__menu').click((e)=>{
+        if(e.target.tagName === 'LI'){
+            e.target.closest('ul').querySelector('.active').classList.remove('active');
+            e.target.classList.add('active');
+        }else{
+            return;
+        }
 
+        e.target.closest('.catalog').querySelector('.catalog__category.active').classList.remove('active');
+        e.target.closest('.catalog').querySelectorAll('.catalog__category')[e.target.dataset.index].classList.add('active');
+
+        e.target.closest('.catalog').querySelector('.catalog__download-all-button.active').classList.remove('active');
+        e.target.closest('.catalog').querySelectorAll('.catalog__download-all-button')[e.target.dataset.index].classList.add('active');
+
+    })
+</script>
 <?php
 
 get_footer();
