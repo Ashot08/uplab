@@ -24,7 +24,7 @@ get_header();
                 <?php
                     wp_nav_menu(
                         array(
-                            'theme_location' => 'menu-1',
+                            'theme_location' => 'course-digital',
                 'menu_id' => 'primary-menu',
                 'menu_class' => 'common_top-menu',
                 )
@@ -36,7 +36,7 @@ get_header();
             <?php
                     wp_nav_menu(
                         array(
-                            'theme_location' => 'menu-1',
+                            'theme_location' => 'course-digital',
             'menu_id' => 'primary-menu',
             'menu_class' => 'header__top-menu',
             )
@@ -133,7 +133,7 @@ get_header();
     <section class="sec sec_dark">
         <div class="box">
             <div class="info-block gap40">
-                <div class="pt70">
+                <div class="pt70 mob-order-2">
                     <div class="iphone-video">
                         <div class="iphone-video__iphone-image">
                             <img src="/wp-content/uploads/2021/08/Iphone-1-2-1.png" alt="iphone">
@@ -397,7 +397,7 @@ get_header();
     <section class="sec sec_dark">
         <div class="box">
             <div class="info-block gap40">
-                <div class="pt70">
+                <div class="pt70 mob-order-2">
                     <div class="iphone-video">
                         <div class="iphone-video__iphone-image">
                             <img src="/wp-content/uploads/2021/08/Iphone-1-2-1.png" alt="iphone">
