@@ -2139,6 +2139,9 @@ input:focus, textarea:focus{
 .catalog__item{
 	text-align: center;
 }
+.lesson__video{
+	width: 100%;
+}
 .with-big-first-letter:first-letter{
 	font-size: 33px;
 }

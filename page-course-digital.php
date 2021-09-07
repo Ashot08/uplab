@@ -88,7 +88,7 @@ get_header();
             </div>
         </div>
     </section>
-    <section class="sec sec_light">
+    <section id="for-who" class="sec sec_light">
         <div class="box">
             <div class="info-block gap40">
                 <div>
@@ -101,8 +101,8 @@ get_header();
                         ПОЛЬЗОВАТЬСЯ, ПОЛУЧИТЕ ПРЕДСТАВЛЕНИЕ О ПРОФЕССИИ DIGITAL-МАРКЕТОЛОГА
                     </div>
                     <div class="common__buttons-wrapper">
-                        <button class="common__button common__button_dark">Записаться на курс</button>
-                        <button class="common__button common__button_dark">В лист ожидания</button>
+                        <button class="common__button common__button_dark" data-modal="modal_2">Записаться на курс</button>
+                        <button class="common__button common__button_dark" data-modal="modal_3">В лист ожидания</button>
                     </div>
                 </div>
                 <div class="pt70">
@@ -165,8 +165,8 @@ get_header();
                         КОМПЛЕКСНОЙ РАБОТЫ НА НОВОМ УРОВНЕ
                     </div>
                     <div class="common__buttons-wrapper">
-                        <button class="common__button">Записаться на курс</button>
-                        <button class="common__button">В лист ожидания</button>
+                        <button class="common__button" data-modal="modal_2">Записаться на курс</button>
+                        <button class="common__button" data-modal="modal_3">В лист ожидания</button>
                     </div>
                 </div>
             </div>
@@ -185,8 +185,8 @@ get_header();
                         ПРЕДСТАВИТЕЛЕМ DIGITAL-СФЕРЫ НА ОДНОМ ЯЗЫКЕ
                     </div>
                     <div class="common__buttons-wrapper">
-                        <button class="common__button common__button_dark">Записаться на курс</button>
-                        <button class="common__button common__button_dark">В лист ожидания</button>
+                        <button class="common__button common__button_dark" data-modal="modal_2">Записаться на курс</button>
+                        <button class="common__button common__button_dark" data-modal="modal_3">В лист ожидания</button>
                     </div>
                 </div>
                 <div class="pt70">
@@ -214,7 +214,7 @@ get_header();
             </div>
         </div>
     </section>
-    <section class="sec">
+    <section id="what-learn" class="sec">
         <div class="box">
             <div class="info-block info-block_1_2">
                 <div>
@@ -247,12 +247,12 @@ get_header();
                 </div>
             </div>
             <div class="common__buttons-wrapper text-center">
-                <button class="common__button">Записаться на курс</button>
-                <button class="common__button">В лист ожидания</button>
+                <button class="common__button" data-modal="modal_2">Записаться на курс</button>
+                <button class="common__button" data-modal="modal_3">В лист ожидания</button>
             </div>
         </div>
     </section>
-    <section class="sec">
+    <section id="speaker" class="sec">
         <div class="box">
             <div class="info-block gap40">
                 <div>
@@ -293,12 +293,12 @@ get_header();
                 </div>
             </div>
             <div class="common__buttons-wrapper text-center">
-                <button class="common__button">Записаться на курс</button>
-                <button class="common__button">В лист ожидания</button>
+                <button class="common__button" data-modal="modal_2">Записаться на курс</button>
+                <button class="common__button" data-modal="modal_3">В лист ожидания</button>
             </div>
         </div>
     </section>
-    <section class="sec sec_light">
+    <section id="includes" class="sec sec_light">
         <div class="box">
             <div class="info-block column-gap80 course-program">
                 <div>
@@ -394,7 +394,7 @@ get_header();
             </div>
         </div>
     </section>
-    <section class="sec sec_dark">
+    <section id="pricing" class="sec sec_dark">
         <div class="box">
             <div class="info-block gap40">
                 <div class="pt70 mob-order-2">
@@ -436,8 +436,8 @@ get_header();
                         СТОИМОСТЬ ВКЛЮЧАЕТ ЗАНЯТИЯ, РАЗБОР ДОМАШНИХ ЗАДАНИЙ, АУДИТ И ОБРАТНАЯ СВЯЗЬ ПО ДОКУМЕНТУ «DIGITAL-СТРАТЕГИЯ БРЕНДА/УСЛУГИ/ТОВАРА/ПЕРСОНЫ», ИНФОРМАЦИОННАЯ ПОДДЕРЖКА ПОСЛЕ КУРСА НА ПРОТЯЖЕНИИ 2 МЕСЯЦЕВ.
                     </div>
                     <div class="common__buttons-wrapper">
-                        <button class="common__button">Записаться на курс</button>
-                        <button class="common__button">В лист ожидания</button>
+                        <button class="common__button" data-modal="modal_2">Записаться на курс</button>
+                        <button class="common__button" data-modal="modal_3">В лист ожидания</button>
                     </div>
                 </div>
             </div>

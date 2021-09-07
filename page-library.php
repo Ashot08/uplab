@@ -120,7 +120,7 @@ get_header();
                         <div class="catalog__item-title">
                             Инструкция по подключению Yandex Метрики
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_4" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -129,7 +129,7 @@ get_header();
                         <div class="catalog__item-title">
                             Инструкция по созданию креатива
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_4" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -138,7 +138,7 @@ get_header();
                         <div class="catalog__item-title">
                             Инструкция установки Google analytics
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_4" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -147,7 +147,7 @@ get_header();
                         <div class="catalog__item-title">
                             Инструкция установки Search console
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_4" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -156,7 +156,7 @@ get_header();
                         <div class="catalog__item-title">
                             Инструкция установки Yandex Webmaster
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_4" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -165,7 +165,7 @@ get_header();
                         <div class="catalog__item-title">
                             Рекомендации по участию в онлайн-встречах
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_4" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                 </div>
                 <div class="catalog__category">
