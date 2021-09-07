@@ -46,7 +46,7 @@ get_header();
         <div class="common_top-logo"><img alt="logo" src="/wp-content/themes/uplab/img/logo2.png"/></div>
     </div>
     <section class="pt70">
-        <img class="full-width-image" src="/wp-content/uploads/2021/08/exapmle1440x280.png">
+        <img class="full-width-image" src="/wp-content/uploads/2021/09/biblioteka_main-1.png">
     </section>
     <section class="sec">
         <div class="box">
@@ -550,31 +550,53 @@ get_header();
         <div class="box">
             <div class="info-block gap40">
                 <div class="info-block__big-title">
-                    ПРОЙДИ<br>
-                    <div class="pl40">
+                    <div class="pl160">ПРОЙДИ</div>
+                    <div class="">
                         БЕСПЛАТНЫЙ
                     </div>
-                    ЭКСПРЕСС-КУРС
+                    <div class="pl20 fs33">ЭКСПРЕСС-КУРС</div>
                     <div class="pl40">
-                        «DIGITAL-МАРКЕТИНГ<br>
-                        ПАКЕТ ЗНАНИЙ
+                        «DIGITAL-МАРКЕТИНГ
                     </div>
-                    ДЛЯ ВЗРЫВНОГО<br>
-                    ЭФФЕКТА»
+                    <div class="fs33 pl120">ПАКЕТ ЗНАНИЙ</div>
+                    <div class="pl140">ДЛЯ ВЗРЫВНОГО</div>
+                    <div class="pl200">ЭФФЕКТА»</div>
                 </div>
                 <div>
-                    <div class="info-block__title">ДЛЯ КОГО КУРС</div>
-                    <div class="info-block__outlined-title info-block__outlined-title_black-back">ПРОДОЛЖАЮЩИМ
-                        СПЕЦИАЛИСТАМ DIGITAL-ПРОДВИЖЕНИЯ С ОПЫТОМ РАБОТЫ 2-3 ГОДА: SMM-СПЕЦИАЛИСТАМ, SEO-СПЕЦИАЛИСТАМ,
-                        ДИРЕКТОЛОГАМ, ТАРГЕТОЛОГАМ
+                    <div class="info-block__title">ПРОГРАММА КУРСА</div>
+                    <div class="info-block__outlined-title info-block__outlined-title_black-back">
+                        Создаем лендинг, который будет приносить заявки 24/7, 365 дней в году
+                        Настраиваем и запускаем воронку с 5 ключевыми каналами онлайн-продаж (email, соцсети, контекст, площадки Яндекс, YouTube)
+                        Подключаем Яндекс Метрику и Google Analytics
+                        Разбираемся в основах аналитики, оптимизируем каналы
                     </div>
-                    <div class="info-block__text">
-                        ВЫ СИСТЕМАТИЗИРУЕТЕ И АКТУАЛИЗИРУЕТЕ СВОИ ЗНАНИЯ, ПОЛУЧИТЕ САМЫЕ ЭФФЕКТИВНЫЕ ФИШКИ ДЛЯ
-                        КОМПЛЕКСНОЙ РАБОТЫ НА НОВОМ УРОВНЕ
+                    <div class="info-block__text uppercase">
+                        <h3>ЗА 3 ДНЯ!</h3>
+                        <div class="fs12 mb20"><span class="fs16 fw600">П</span>ервый день: готовим идеальную площадку для трафика – лендинг, который будет приносить заявки <span class="fs16 fw600">24/7</span></div>
+                        <div class="fs12 ls1"><span class="fs16 fw600">1.   В</span>иды высококонверсионных лендингов: квиз, микролендинг, лендинг-сообщество</div>
+                        <div class="fs12 ls1"><span class="fs16 fw600">2.   С</span>оздаем продающий лендинг за 1 день: макеты, структура, топовые инструменты</div>
+                        <div class="fs12 ls1"><span class="fs16 fw600">3.   П</span>родающий контент для лендинга: позиционирование, УТП, акция, message, call to action</div>
+                        <div class="fs12 ls1"><span class="fs16 fw600">4.   В</span>изуал для лендинга: топовые инструменты для создания изображений, инфоргафики, баннеров</div>
                     </div>
-                    <div class="common__buttons-wrapper">
-                        <button class="common__button">Записаться на курс</button>
-                        <button class="common__button">В лист ожидания</button>
+                    <div class="info-block__text uppercase">
+                        <div class="fs12 mb20"><span class="fs16 fw600">В</span>торой день: настраиваем воронку через <span class="fs16 fw600">5</span> основных онлайн-каналов</div>
+                        <div class="fs12 ls1"><span class="fs16 fw600">1.   Г</span>айд по ключевым настройкам социальных сетей</div>
+                        <div class="fs12 ls1"><span class="fs16 fw600">2.   З</span>апуск email-маркетинга</div>
+                        <div class="fs12 ls1"><span class="fs16 fw600">3.   З</span>апуск контекстной рекламы Yandex Direct, Google Adwords</div>
+                        <div class="fs12 ls1"><span class="fs16 fw600">4.   Я</span>ндекс Кью, Яндекс Дзен как каналы генерации целевого трафика</div>
+                        <div class="fs12 ls1"><span class="fs16 fw600">5.   З</span>апуск личного YouTube канала</div>
+                    </div>
+                    <div class="info-block__text uppercase">
+                        <div class="fs12 mb20"><span class="fs16 fw600">Т</span>ретий день: подключаем инструменты аналитики, оптимизируем каналы продаж</div>
+                        <div class="fs12 ls1"><span class="fs16 fw600">1.   П</span>одключаем, настраиваем Яндекс Метрику</div>
+                        <div class="fs12 ls1"><span class="fs16 fw600">2.   П</span>одключаем, настраиваем Google Analytics</div>
+                        <div class="fs12 ls1"><span class="fs16 fw600">3.   Н</span>овинки в инструментах, секретные настройки</div>
+                        <div class="fs12 ls1"><span class="fs16 fw600">4.   А</span>нализируем трафик, оптимизируем каналы, выбираем эффективные</div>
+                    </div>
+                    <div class="info-block__text uppercase info-block__text_black p20 br4 sec_light fw600">
+                        ПРОЙТИ БЕСПЛАТНЫЙ ЭКСПРЕСС-КУРС<br>
+                        «DIGITAL-МАРКЕТИНГ:<br>
+                        ПАКЕТ ЗНАНИЙ ДЛЯ ВЗРЫВНОГО ЭФФЕКТА»
                     </div>
                 </div>
             </div>
