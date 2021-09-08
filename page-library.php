@@ -176,7 +176,7 @@ get_header();
                         <div class="catalog__item-title">
                             Чек-лист по юзабилити. Ссылки
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -185,7 +185,7 @@ get_header();
                         <div class="catalog__item-title">
                             Чек-лист по юзабилити. Кнопки
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -194,7 +194,7 @@ get_header();
                         <div class="catalog__item-title">
                             Чек-лист по юзабилити. Дизайн и элементы сайта
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -203,7 +203,7 @@ get_header();
                         <div class="catalog__item-title">
                             Чек-лист по юзабилити. Основное
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -212,7 +212,7 @@ get_header();
                         <div class="catalog__item-title">
                             Чек-лист по юзабилити. Главное меню
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -221,7 +221,7 @@ get_header();
                         <div class="catalog__item-title">
                             Чек-лист по юзабилити. Поиск
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -230,7 +230,7 @@ get_header();
                         <div class="catalog__item-title">
                             Чек-лист по юзабилити. Навигация и поиск
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -239,7 +239,7 @@ get_header();
                         <div class="catalog__item-title">
                             Коммуникация с клиентом на сайте
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -248,7 +248,7 @@ get_header();
                         <div class="catalog__item-title">
                             Страница контактов
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -257,7 +257,7 @@ get_header();
                         <div class="catalog__item-title">
                             Отзывы и комментарии
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -266,7 +266,7 @@ get_header();
                         <div class="catalog__item-title">
                             Форма обратной связи
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -275,7 +275,7 @@ get_header();
                         <div class="catalog__item-title">
                             Онлайн-консультант
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -284,7 +284,7 @@ get_header();
                         <div class="catalog__item-title">
                             Страницы категорий товара
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -293,7 +293,7 @@ get_header();
                         <div class="catalog__item-title">
                             Фильтры
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -302,7 +302,7 @@ get_header();
                         <div class="catalog__item-title">
                             Сравнение товаров
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -311,7 +311,7 @@ get_header();
                         <div class="catalog__item-title">
                             Сортировка
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -320,7 +320,7 @@ get_header();
                         <div class="catalog__item-title">
                             Страница товара
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -329,7 +329,7 @@ get_header();
                         <div class="catalog__item-title">
                             Фото и видео
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -338,7 +338,7 @@ get_header();
                         <div class="catalog__item-title">
                             Характеристики
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -347,7 +347,7 @@ get_header();
                         <div class="catalog__item-title">
                             Другое
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -356,7 +356,7 @@ get_header();
                         <div class="catalog__item-title">
                             Регистрация, оформление заказа, корзина
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -365,7 +365,7 @@ get_header();
                         <div class="catalog__item-title">
                             Регистрация
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -374,7 +374,7 @@ get_header();
                         <div class="catalog__item-title">
                             Корзина
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -383,7 +383,7 @@ get_header();
                         <div class="catalog__item-title">
                             Оформление заказа
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -392,7 +392,7 @@ get_header();
                         <div class="catalog__item-title">
                             Оплата
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -401,7 +401,7 @@ get_header();
                         <div class="catalog__item-title">
                             25 действий для макс активизации сайта с мессенджеров
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -410,7 +410,7 @@ get_header();
                         <div class="catalog__item-title">
                             Доставка
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -419,7 +419,7 @@ get_header();
                         <div class="catalog__item-title">
                             Тексты на сайте
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -428,7 +428,7 @@ get_header();
                         <div class="catalog__item-title">
                             Шрифт
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -437,7 +437,7 @@ get_header();
                         <div class="catalog__item-title">
                             Заголовки и подзаголовки
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -446,7 +446,7 @@ get_header();
                         <div class="catalog__item-title">
                             Изображения и видео на сайте
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -455,7 +455,7 @@ get_header();
                         <div class="catalog__item-title">
                             Блог сайта
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -464,7 +464,7 @@ get_header();
                         <div class="catalog__item-title">
                             Постоянное совершенствование юзабилити
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -473,7 +473,7 @@ get_header();
                         <div class="catalog__item-title">
                             Чек-лист каналов продаж
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                 </div>
                 <div class="catalog__category">
@@ -484,7 +484,7 @@ get_header();
                         <div class="catalog__item-title">
                             Разработка сайта
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_6" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -493,7 +493,7 @@ get_header();
                         <div class="catalog__item-title">
                             Работы в Social media
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_6" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -502,7 +502,7 @@ get_header();
                         <div class="catalog__item-title">
                             Продвижение персонального бренда
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_6" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -511,7 +511,7 @@ get_header();
                         <div class="catalog__item-title">
                             Форма отчета по комплексному аудиту
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_6" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                 </div>
                 <div class="catalog__category">
@@ -522,7 +522,7 @@ get_header();
                         <div class="catalog__item-title">
                             Аватар клиента
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_7" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -531,7 +531,7 @@ get_header();
                         <div class="catalog__item-title">
                             Контент-план 100 постов
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_7" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
@@ -540,7 +540,7 @@ get_header();
                         <div class="catalog__item-title">
                             Портрет целевой аудитории
                         </div>
-                        <button class="common__button common__button_dark"><strong>С</strong>качать</button>
+                        <button data-modal="modal_7" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
                 </div>
             </div>

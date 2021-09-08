@@ -97,7 +97,7 @@ get_header();
                         ВЫ ПОЛУЧИТЕ КОМПЛЕКСНЫЕ ЗНАНИЯ ОБ ОСНОВНЫХ ИНСТРУМЕНТАХ DIGITAL-МАРКТЕТИНГА, НАУЧИТЕСЬ ИХ ПРИМЕНЯТЬ НА ПРАКТИКЕ, ВЫБЕРИТЕ НАИБОЛЕЕ ЭФФЕКТИВНЫЕ КОНКРЕТНО ДЛЯ ВАС, РАЗБЕРЕТЕСЬ В ОСНОВАХ АНАЛИТИКИ
                     </div>
                     <div class="common__buttons-wrapper">
-                        <button class="common__button common__button_dark">Пройти курс бесплатно</button>
+                        <button data-modal="modal_8" class="common__button common__button_dark">Пройти курс бесплатно</button>
                     </div>
                 </div>
                 <div class="pt70">
