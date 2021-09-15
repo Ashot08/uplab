@@ -24,7 +24,7 @@ get_header();
                 <?php
                     wp_nav_menu(
                         array(
-                            'theme_location' => 'course-digital',
+                            'theme_location' => 'free-posad',
                 'menu_id' => 'primary-menu',
                 'menu_class' => 'common_top-menu',
                 )
@@ -36,7 +36,7 @@ get_header();
             <?php
                     wp_nav_menu(
                         array(
-                            'theme_location' => 'course-digital',
+                            'theme_location' => 'free-posad',
             'menu_id' => 'primary-menu',
             'menu_class' => 'header__top-menu',
             )
@@ -85,7 +85,7 @@ get_header();
             </div>
         </div>
     </section>
-    <section class="sec sec_light">
+    <section id="for-who" class="sec sec_light">
         <div class="box">
             <div class="info-block gap40">
                 <div>
@@ -109,11 +109,11 @@ get_header();
                             <img src="/wp-content/uploads/2021/08/Group-2-2-1.png" alt="iphone">
                         </div>
                         <div class="iphone-video__video-wrapper">
-                            <video class="iphone-video__video-video"
-                                   src="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4">
+                            <video autoplay muted class="iphone-video__video-video"
+                                   src="/wp-content/uploads/2021/09/pexels-tima-miroshnichenko-7579564.mp4">
                                 Sorry, your browser doesn't support embedded videos,
                                 but don't worry, you can <a
-                                    href="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4">download it</a>
+                                    href="/wp-content/uploads/2021/09/pexels-tima-miroshnichenko-7579564.mp4">download it</a>
                                 and watch it with your favorite video player!
                             </video>
                         </div>
@@ -125,7 +125,7 @@ get_header();
             </div>
         </div>
     </section>
-    <section class="sec">
+    <section id="speaker" class="sec">
         <div class="box">
             <div class="info-block gap40">
                 <div>
@@ -166,11 +166,11 @@ get_header();
                 </div>
             </div>
             <div class="common__buttons-wrapper text-center">
-                <button class="common__button">Пройти курс бесплатно</button>
+                <button data-modal="modal_8" class="common__button">Пройти курс бесплатно</button>
             </div>
         </div>
     </section>
-    <section class="sec sec_dark">
+    <section id="unique" class="sec sec_dark">
         <div class="box">
             <div class="info-block gap40">
                 <div class="pt70 mob-order-2">
@@ -182,7 +182,7 @@ get_header();
                             <img src="/wp-content/uploads/2021/08/Group-2-2-1.png" alt="iphone">
                         </div>
                         <div class="iphone-video__video-wrapper">
-                            <video class="iphone-video__video-video"
+                            <video autoplay muted class="iphone-video__video-video"
                                    src="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4">
                                 Sorry, your browser doesn't support embedded videos,
                                 but don't worry, you can <a
@@ -210,13 +210,13 @@ get_header();
                         <strong>СТОИМОСТЬ УЧАСТИЯ: БЕСПЛАТНО</strong>
                     </div>
                     <div class="common__buttons-wrapper">
-                        <button class="common__button">Пройти курс бесплатно </button>
+                        <button data-modal="modal_8" class="common__button">Пройти курс бесплатно </button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="sec">
+    <section id="includes" class="sec">
         <div class="box">
             <div class="info-block gap40">
                 <div>
@@ -233,11 +233,11 @@ get_header();
                     </div>
                 </div>
                 <div>
-                    <div class="info-block__outlined-title">ПРАКТИЧЕСКИЙ ОФЛАЙН-КУРС ПО DIGITAL-МАРКЕТИНГУ
+                    <div class="info-block__outlined-title">ПОНРАВИЛСЯ БЕСПЛАТНЫЙ ЭКСПРЕСС-КУРС? <br> ПРОКАЧАЙТЕ СВОИ ЗНАНИЯ НА ПРАКТИЧЕСКОМ ОФЛАЙН-КУРСЕ «DIGITAL-МАРКЕТИНГ: ПРОДВИНУТЫЙ УРОВЕНЬ»
                     </div>
                     <div class="info-block__text">
                         <ul class="list">
-                            <li><strong>НА КУРСЕ ВЫ НАУЧИТЕСЬ:</strong></li>
+                            <li><strong>НА ОФЛАЙН-КУРСЕ ВЫ НАУЧИТЕСЬ:</strong></li>
                             <li>
                                 ✓ РАЗБИРАТЬСЯ В ОСНОВНЫХ ПОНЯТИЯХ, КАСАЮЩИХСЯ DIGITAL-МАРКЕТИНГА;<br>
                                 ✓ РАЗБИРАТЬСЯ В АКТУАЛЬНЫХ ИНСТРУМЕНТАХ DIGITAL-МАРКЕТИНГА;<br>
@@ -261,38 +261,12 @@ get_header();
                 </div>
             </div>
             <div class="common__buttons-wrapper text-center">
-                <button class="common__button">Программа курса</button>
-                <button class="common__button">Записаться на курс</button>
+                <button data-modal="modal_9" class="common__button">Подробнее о курсе</button>
+                <a href="/course-digital/"><button class="common__button">Записаться на курс</button></a>
             </div>
         </div>
     </section>
-    <footer>
-        <section class="sec">
-            <div class="common-footer box">
-                <div>
-                    <img alt="logo" src="/wp-content/themes/uplab/img/logo2.png">
-                </div>
-                <div>КОНТАКТЫ:
-                    <p>
-                        Email: up_lab@mail.ru    кликабельный
-                        Phone: +7 911 129 96 94 кликабельный
-                        Иконки Мессенджеры как на главной кликабельные
-                    </p>
-                </div>
-                <div>
-                    РЕКВИЗИТЫ:
-                    <p>
-                        ИП Караказова Анастасия Павловна
-                        Юридический и почтовый адрес:
-                        192076, Санкт-Петербург,
-                        пр. Рыбацкий, д. 15, корп. 1, кв. 319
-                        ИНН/КПП: 222509007480
-                    </p>
-                </div>
-                <div><a href="/">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a></div>
-            </div>
-        </section>
-    </footer>
+    <?php get_template_part('common-footer'); ?>
 
 </main><!-- #main -->
 <script>

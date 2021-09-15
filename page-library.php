@@ -24,7 +24,7 @@ get_header();
                 <?php
                     wp_nav_menu(
                         array(
-                            'theme_location' => 'course-digital',
+                            'theme_location' => 'library',
                 'menu_id' => 'primary-menu',
                 'menu_class' => 'common_top-menu',
                 )
@@ -36,7 +36,7 @@ get_header();
             <?php
                     wp_nav_menu(
                         array(
-                            'theme_location' => 'course-digital',
+                            'theme_location' => 'library',
             'menu_id' => 'primary-menu',
             'menu_class' => 'header__top-menu',
             )
@@ -82,9 +82,12 @@ get_header();
                             на современном рынке услуг!
                         </li>
                     </ul>
-                    <div class="info-block__outlined-title info-block__outlined-title__main">БЕСПЛАТНЫЙ ЭКСПРЕСС-КУРС
-                        «DIGITAL-МАРКЕТИНГ: ПАКЕТ ЗНАНИЙ ДЛЯ ВЗРЫВНОГО ЭФФЕКТА»
+                    <a href="/posadochnaya-besplatnyj-kurs/">
+                    <div class="info-block__outlined-title info-block__outlined-title__main">
+                        ХОЧУ ПРОЙТИ БЕСПЛАТНЫЙ ЭКСПРЕСС-КУРС
+                            «DIGITAL-МАРКЕТИНГ: ПАКЕТ ЗНАНИЙ ДЛЯ ВЗРЫВНОГО ЭФФЕКТА»
                     </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -105,10 +108,10 @@ get_header();
                         <li data-index="2">/ Брифы</li>
                         <li data-index="3">/ SMM</li>
                     </ul>
-                    <button class="common__button catalog__download-all-button active">Скачать все материалы</button>
-                    <button class="common__button catalog__download-all-button">Скачать все материалы</button>
-                    <button class="common__button catalog__download-all-button">Скачать все материалы</button>
-                    <button class="common__button catalog__download-all-button">Скачать все материалы</button>
+                    <button data-modal="modal_10" class="common__button catalog__download-all-button active">Скачать все материалы</button>
+                    <button data-modal="modal_10" class="common__button catalog__download-all-button">Скачать все материалы</button>
+                    <button data-modal="modal_10" class="common__button catalog__download-all-button">Скачать все материалы</button>
+                    <button data-modal="modal_10" class="common__button catalog__download-all-button">Скачать все материалы</button>
                 </div>
             </div>
             <div class="catalog__wrapper">
@@ -351,15 +354,6 @@ get_header();
                     </div>
                     <div class="catalog__item">
                         <div class="catalog__item-header">
-                            <img src="" alt="catalog-item-image">
-                        </div>
-                        <div class="catalog__item-title">
-                            Регистрация, оформление заказа, корзина
-                        </div>
-                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
-                    </div>
-                    <div class="catalog__item">
-                        <div class="catalog__item-header">
                             <img src="/wp-content/uploads/2021/09/uplab_check-23.jpg" alt="catalog-item-image">
                         </div>
                         <div class="catalog__item-title">
@@ -391,15 +385,6 @@ get_header();
                         </div>
                         <div class="catalog__item-title">
                             Оплата
-                        </div>
-                        <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
-                    </div>
-                    <div class="catalog__item">
-                        <div class="catalog__item-header">
-                            <img src="" alt="catalog-item-image">
-                        </div>
-                        <div class="catalog__item-title">
-                            25 действий для макс активизации сайта с мессенджеров
                         </div>
                         <button data-modal="modal_5" class="common__button common__button_dark"><strong>С</strong>качать</button>
                     </div>
@@ -593,44 +578,20 @@ get_header();
                         <div class="fs12 ls1"><span class="fs16 fw600">3.   Н</span>овинки в инструментах, секретные настройки</div>
                         <div class="fs12 ls1"><span class="fs16 fw600">4.   А</span>нализируем трафик, оптимизируем каналы, выбираем эффективные</div>
                     </div>
-                    <div class="info-block__text uppercase info-block__text_black p20 br4 sec_light fw600">
-                        ПРОЙТИ БЕСПЛАТНЫЙ ЭКСПРЕСС-КУРС<br>
-                        «DIGITAL-МАРКЕТИНГ:<br>
-                        ПАКЕТ ЗНАНИЙ ДЛЯ ВЗРЫВНОГО ЭФФЕКТА»
-                    </div>
+                    <a href="/posadochnaya-besplatnyj-kurs/" target="_blank">
+                        <div class="info-block__text uppercase info-block__text_black p20 br4 sec_light fw600">
+                           ХОЧУ ПРОЙТИ БЕСПЛАТНЫЙ ЭКСПРЕСС-КУРС<br>
+                            «DIGITAL-МАРКЕТИНГ:
+                            ПАКЕТ ЗНАНИЙ ДЛЯ ВЗРЫВНОГО ЭФФЕКТА»
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
 
-    <footer>
-        <section class="sec">
-            <div class="common-footer box">
-                <div>
-                    <img alt="logo" src="/wp-content/themes/uplab/img/logo2.png">
-                </div>
-                <div>КОНТАКТЫ:
-                    <p>
-                        Email: up_lab@mail.ru    кликабельный
-                        Phone: +7 911 129 96 94 кликабельный
-                        Иконки Мессенджеры как на главной кликабельные
-                    </p>
-                </div>
-                <div>
-                    РЕКВИЗИТЫ:
-                    <p>
-                        ИП Караказова Анастасия Павловна
-                        Юридический и почтовый адрес:
-                        192076, Санкт-Петербург,
-                        пр. Рыбацкий, д. 15, корп. 1, кв. 319
-                        ИНН/КПП: 222509007480
-                    </p>
-                </div>
-                <div><a href="/">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a></div>
-            </div>
-        </section>
-    </footer>
+    <?php get_template_part('common-footer'); ?>
 
 </main><!-- #main -->
 <script>

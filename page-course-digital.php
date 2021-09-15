@@ -46,7 +46,7 @@ get_header();
         <div class="common_top-logo"><img alt="logo" src="/wp-content/themes/uplab/img/logo2.png"/></div>
     </div>
     <section class="pt70">
-        <img class="full-width-image" src="/wp-content/uploads/2021/08/exapmle1440x280.png">
+        <img class="full-width-image" src="/wp-content/uploads/2021/09/main_course1-1.png">
     </section>
     <section class="sec">
         <div class="box">
@@ -81,8 +81,8 @@ get_header();
                             на современном рынке услуг!
                         </li>
                     </ul>
-                    <div class="info-block__outlined-title info-block__outlined-title__main">БЕСПЛАТНЫЙ ЭКСПРЕСС-КУРС
-                        «DIGITAL-МАРКЕТИНГ: ПАКЕТ ЗНАНИЙ ДЛЯ ВЗРЫВНОГО ЭФФЕКТА»
+              <div>
+                    <div class="info-block__outlined-title info-block__outlined-title__main">ПОЛУЧИТЕ КОМПЛЕКСНЫЕ ЗНАНИЯ <br> НА ПРАКТИЧЕСКОМ ОФЛАЙН-КУРСЕ <br>«DIGITAL-МАРКЕТИНГ: ПРОДВИНУТЫЙ УРОВЕНЬ»
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@ get_header();
     <section id="for-who" class="sec sec_light">
         <div class="box">
             <div class="info-block gap40">
-                <div>
+               <div>
                     <div class="info-block__title info-block__title_black">ДЛЯ КОГО КУРС</div>
                     <div class="info-block__outlined-title">НАЧИНАЮЩИМ СПЕЦИАЛИСТАМ DIGITAL: SMM-СПЕЦИАЛИСТАМ,
                         SEO-СПЕЦИАЛИСТАМ, ДИРЕКТОЛОГАМ, ТАРГЕТОЛОГАМ
@@ -114,7 +114,7 @@ get_header();
                             <img src="/wp-content/uploads/2021/08/Group-2-2-1.png" alt="iphone">
                         </div>
                         <div class="iphone-video__video-wrapper">
-                            <video class="iphone-video__video-video"
+                            <video autoplay muted class="iphone-video__video-video"
                                    src="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4">
                                 Sorry, your browser doesn't support embedded videos,
                                 but don't worry, you can <a
@@ -142,11 +142,11 @@ get_header();
                             <img src="/wp-content/uploads/2021/08/Group-2-2-1.png" alt="iphone">
                         </div>
                         <div class="iphone-video__video-wrapper">
-                            <video class="iphone-video__video-video"
-                                   src="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4">
+                            <video autoplay muted class="iphone-video__video-video"
+                                   src="/wp-content/uploads/2021/09/pexels-kindel-media-7651891.mp4">
                                 Sorry, your browser doesn't support embedded videos,
                                 but don't worry, you can <a
-                                    href="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4">download it</a>
+                                    href="/wp-content/uploads/2021/09/pexels-kindel-media-7651891.mp4">download it</a>
                                 and watch it with your favorite video player!
                             </video>
                         </div>
@@ -198,11 +198,11 @@ get_header();
                             <img src="/wp-content/uploads/2021/08/Group-2-2-1.png" alt="iphone">
                         </div>
                         <div class="iphone-video__video-wrapper">
-                            <video class="iphone-video__video-video"
-                                   src="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4">
+                            <video autoplay muted class="iphone-video__video-video"
+                                   src="/wp-content/uploads/2021/09/pexels-rodnae-productions-7947506.mp4">
                                 Sorry, your browser doesn't support embedded videos,
                                 but don't worry, you can <a
-                                    href="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4">download it</a>
+                                    href="/wp-content/uploads/2021/09/pexels-rodnae-productions-7947506.mp4">download it</a>
                                 and watch it with your favorite video player!
                             </video>
                         </div>
@@ -406,11 +406,11 @@ get_header();
                             <img src="/wp-content/uploads/2021/08/Group-2-2-1.png" alt="iphone">
                         </div>
                         <div class="iphone-video__video-wrapper">
-                            <video class="iphone-video__video-video"
-                                   src="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4">
+                            <video autoplay muted class="iphone-video__video-video"
+                                   src="/wp-content/uploads/2021/09/pexels-tima-miroshnichenko-7579564.mp4">
                                 Sorry, your browser doesn't support embedded videos,
                                 but don't worry, you can <a
-                                    href="/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4">download it</a>
+                                    href="/wp-content/uploads/2021/09/pexels-tima-miroshnichenko-7579564.mp4">download it</a>
                                 and watch it with your favorite video player!
                             </video>
                         </div>
@@ -421,9 +421,9 @@ get_header();
                 </div>
                 <div>
                     <div class="info-block__title">ЦЕНА И ДАТЫ</div>
-                    <div class="info-block__outlined-title info-block__outlined-title_black-back">ПРОДОЛЖАЮЩИМ
-                        ВСЕГО: 72 ЧАСА
-                        СТАРТ: СЕРЕДИНА СЕНТЯБРЯ 2021 ГОДА
+                    <div class="info-block__outlined-title info-block__outlined-title_black-back">
+                       ДЛИТЕЛЬНОСТЬ ВСЕГО: 72 ЧАСА <br>
+                        СТАРТ: НАЧАЛО 2022 ГОДА <br>
                         КОЛИЧЕСТВО И ПЕРИОДИЧНОСТЬ ЗАНЯТИЙ: 14 ЗАНЯТИЙ ПО 3 ЧАСА ДВАЖДЫ В НЕДЕЛЮ
                     </div>
                     <div class="info-block__text">
@@ -443,34 +443,8 @@ get_header();
             </div>
         </div>
     </section>
-    <footer>
-        <section class="sec">
-            <div class="common-footer box">
-                <div>
-                    <img alt="logo" src="/wp-content/themes/uplab/img/logo2.png">
-                </div>
-                <div>КОНТАКТЫ:
-                    <p>
-                        Email: up_lab@mail.ru    кликабельный
-                        Phone: +7 911 129 96 94 кликабельный
-                        Иконки Мессенджеры как на главной кликабельные
-                    </p>
-                </div>
-                <div>
-                    РЕКВИЗИТЫ:
-                    <p>
-                        ИП Караказова Анастасия Павловна
-                        Юридический и почтовый адрес:
-                        192076, Санкт-Петербург,
-                        пр. Рыбацкий, д. 15, корп. 1, кв. 319
-                        ИНН/КПП: 222509007480
-                    </p>
-                </div>
-                <div><a href="/">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a></div>
-            </div>
-        </section>
-    </footer>
-
+    <?php get_template_part('common-footer'); ?>
+    
 </main><!-- #main -->
 <script>
 jQuery('.iphone-video__play').click((e)=>{
