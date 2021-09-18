@@ -43,7 +43,8 @@
     <div id="modal_8" class="dlg-modal">
         <?php $isUserLogin = is_user_logged_in(); ?>
         <?php if($isUserLogin): ?>
-            Вы уже зарегистрированы
+            Вы уже зарегистрированы<br>
+            <div><a style="text-transform: uppercase; text-decoration: underline;" href="/free-course/">Перейти к курсу</a></div>
         <?php else: ?>
 		    <?php echo do_shortcode('[contact-form-7 id="152" title="Регистрация (Посадочная беспл курса)"]');?>
         <?php endif;?>
