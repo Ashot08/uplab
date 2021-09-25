@@ -46,7 +46,8 @@
             Вы уже зарегистрированы<br>
             <div><a style="text-transform: uppercase; text-decoration: underline;" href="/free-course/">Перейти к курсу</a></div>
         <?php else: ?>
-		    <?php echo do_shortcode('[contact-form-7 id="152" title="Регистрация (Посадочная беспл курса)"]');?>
+            <h2>Пройти курс бесплатно</h2>
+            <?php get_template_part('registration-form'); ?>
         <?php endif;?>
     </div>
 	<div id="modal_9" class="dlg-modal">

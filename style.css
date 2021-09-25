@@ -1285,10 +1285,10 @@ body{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;    
+    justify-content: flex-start;
 }
 .header__top-menu .menu-item{
-    padding-right: 35px;
+    padding-right: 12px;
 }
 .header__top-menu .menu-item:last-child{
     padding-right: 0px;    
@@ -2009,7 +2009,8 @@ input:focus, textarea:focus{
 	margin-bottom: 40px;
 }
 
-.uppercase{text-transform: uppercase}
+.uppercase{text-transform: uppercase;}
+.lowercase{text-transform: lowercase;}
 .fs12{font-size: 12px;}
 .fs18{font-size: 18px;}
 .fs16{font-size: 16px;}
@@ -2144,6 +2145,73 @@ input:focus, textarea:focus{
 }
 .with-big-first-letter:first-letter{
 	font-size: 33px;
+}
+.dlg-modal .woocommerce-privacy-policy-text{
+	display: none;
+}
+.dlg-modal .form-captcha-row input,.dlg-modal .captcha_img{
+	float: none;
+	margin-left: 0;
+}
+
+.free-course__login-form .info-block{
+	align-items: inherit;
+}
+.free-course__login-form label{
+	display: block;
+}
+.free-course__login-form .login-column{
+	padding: 20px;
+	border: 1px solid #fff;
+	border-radius: 20px;
+}
+#primary-menu{
+	text-transform: uppercase;
+}
+.front-page__header{
+	display: grid;
+	grid-template-columns: auto auto;
+	font-size: 0.9em;
+}
+.main-menu-with-links{
+	display: flex;
+	list-style: none;
+	justify-content: flex-end;
+}
+.main-menu-with-links-mobile{
+	display: block;
+	font-size: 16px;
+	list-style: none;
+	padding-left: 0;
+}
+.main-menu-with-links-mobile > li{
+	padding-bottom: 6px;
+	padding-top: 6px;
+}
+.main-menu-with-links > li{
+	padding-right: 12px;
+}
+.captcha_img img{
+	height: 100%;
+}
+.form-captcha-row{
+	display: flex;
+	height: 36px;
+}
+#modal_8{
+	text-align: left;
+}
+.form-captcha-row #register_captcha{
+	margin-left: 10px;
+	text-align: center;
+}
+.work-note{
+	max-width: 400px;
+}
+.work-note__wrapper{
+	display: grid;
+	justify-content: center;
+	grid-gap: 20px;
 }
 @keyframes fadeIn {
 	from {opacity: 0; visibility: hidden;}

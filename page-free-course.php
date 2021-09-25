@@ -246,9 +246,13 @@ $fourthAvailableDate = date ( "d.m.Y", strtotime($registrationDate) + 36*3600 );
                             создания изображений, инфоргафики, баннеров
                         </div>
                     </div>
+                    <div class="text-center work-note__wrapper">
+                        <img class="work-note" src="/wp-content/uploads/2021/09/rabochaya_tetrad-1-1-1.png" alt="work">
+                        <a href="/wp-content/uploads/2021/09/rabochaya_tetrad.pdf"><button class="common__button common__button_dark">Скачать</button></a>
+                    </div>
                 </div>
                 <div>
-                    <video class="lesson__video" src="/wp-content/uploads/2021/09/novyj-proekt.mp4" controls></video>
+                    <video class="lesson__video" src="/wp-content/uploads/2021/09/1.mp4" poster="/wp-content/uploads/2021/09/1_oblojka_na_video-1-1.png" controls></video>
                 </div>
             </div>
         </section>
@@ -293,8 +297,8 @@ $fourthAvailableDate = date ( "d.m.Y", strtotime($registrationDate) + 36*3600 );
                 </div>
                 <div>
                     <?php
-							$video_url = $isSecondLessonOpen ? '/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4' : '';
-							$poster_url = $isSecondLessonOpen ? '' : '/wp-content/uploads/2021/09/cover-1.png';
+							$video_url = $isSecondLessonOpen ? '/wp-content/uploads/2021/09/2.mp4' : '';
+							$poster_url = $isSecondLessonOpen ? '/wp-content/uploads/2021/09/1_oblojka_na_video-1-1.png' : '/wp-content/uploads/2021/09/cover-1.png';
 					?>
                     <video class="lesson__video" poster="<?php echo $poster_url; ?>" src="<?php echo $video_url; ?>" controls></video>
                 </div>
@@ -334,8 +338,8 @@ $fourthAvailableDate = date ( "d.m.Y", strtotime($registrationDate) + 36*3600 );
                 </div>
                 <div>
                     <?php
-							$video_url = $isThirdLessonOpen ? '/wp-content/uploads/2021/08/pexels-alena-darmel-7659845.mp4' : '';
-							$poster_url = $isThirdLessonOpen ? '' : '/wp-content/uploads/2021/09/cover-1.png';
+							$video_url = $isThirdLessonOpen ? '/wp-content/uploads/2021/09/3.mp4' : '';
+							$poster_url = $isThirdLessonOpen ? '/wp-content/uploads/2021/09/1_oblojka_na_video-1-1.png' : '/wp-content/uploads/2021/09/cover-1.png';
 					?>
                     <video class="lesson__video" poster="<?php echo $poster_url; ?>" src="<?php echo $video_url; ?>" controls></video>
                 </div>

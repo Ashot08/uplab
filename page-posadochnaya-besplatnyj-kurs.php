@@ -14,6 +14,16 @@
 
 get_header();
 ?>
+
+<?php
+$isUserLogin = is_user_logged_in();
+?>
+<?php if($isUserLogin && !current_user_can( 'manage_options' )): ?>
+<script>
+    document.location.href = 'https://up-lab.ru/free-course';
+</script>
+<?php endif; ?>
+
 <main id="primary" class="site-main">
     <div class="nav-toggle">
         <div class="nav-toggle-bar"></div>
