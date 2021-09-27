@@ -229,6 +229,10 @@ $fourthAvailableDate = date ( "d.m.Y", strtotime($registrationDate) + 36*3600 );
                             СОЗДАЕМ ВЫСОКОКОНВЕРСИОННЫЙ лендинг,
                             который будет приносить ЛИДЫ 24/7
                         </div>
+                    </div>
+                </div>
+                <div class="info-block gap40 uppercase mb40 align-items-start">
+                    <div>
                         <div class="info-block__text info-block__text_black">
                             Виды высококонверсионных лендингов:
                             квиз, микролендинг, лендинг-сообщество
@@ -246,7 +250,7 @@ $fourthAvailableDate = date ( "d.m.Y", strtotime($registrationDate) + 36*3600 );
                             создания изображений, инфоргафики, баннеров
                         </div>
                     </div>
-                    <div class="text-center work-note__wrapper">
+                    <div class="text-center work-note__wrapper pt20">
                         <img class="work-note" src="/wp-content/uploads/2021/09/rabochaya_tetrad-1-1-1.png" alt="work">
                         <a href="/wp-content/uploads/2021/09/rabochaya_tetrad.pdf"><button class="common__button common__button_dark">Скачать</button></a>
                     </div>
